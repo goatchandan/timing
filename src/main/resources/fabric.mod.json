@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "vaultsnipe",
+  "version": "${version}",
+  "name": "Vault Snipe",
+  "description": "Client-side: auto-opens an ominous vault with an ominous trial key on the exact tick a heavy core is displayed.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.vaultsnipe.VaultSnipeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": ">=26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
